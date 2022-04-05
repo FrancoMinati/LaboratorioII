@@ -1,0 +1,32 @@
+Programacion Paralela/Distribuida
+
+Depende de la arquitecturas de computadoras utilizada.
+Se trata de dividir el trabajo entre varias computadoras, se utiliza un cluster, o sino tambien con procesadores multinucleo
+
+POO
+COleccion de objetos que interactuan intercambiando mensajes que transforman eestados
+elementos de programacion: modelado de objetos clasese herencias encapsulamiento
+un computo se expresa mediante intercambio de mensajes entre objetos
+los objetos se agrupan en classes las cuales se agruopan en jerarquias
+los resultados se pasan como parametros a mensajes
+
+Paradigma Logico
+
+Computo se exprresa menianta la busqueda de pruebas o definicion de predicados recursivos y anaidados
+no hay memoria implicita
+los resultados intermedios se pasan mediante unificacion
+control basado en recursion
+
+pot(M,N,R).
+pot(M,N,R):-resta(N,1,N1),
+            pot(M.N1,RT),
+	    prod(M,RT,R).
+
+Paradigma Funcional
+
+Se basa en recursion
+Los resultados intermedios pasan a otras funciones
+Se orienta a la evaluacion
+No importa el como sino el que
+Es una coleccion de funciones que se combinan en una funcion total para resolver un problema
+Lenguaje impuro y estricto. puro y peresozo
